@@ -10,6 +10,90 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 276,
+                    "y": 97,
+                    "uniqueID": 880878,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 336,
+                    "y": 230,
+                    "uniqueID": 632031,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 4.2
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 477,
+                    "y": 86,
+                    "uniqueID": 971866,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 476,
+                    "y": 201,
+                    "uniqueID": 808760,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 669,
+                    "y": 117,
+                    "uniqueID": 935381,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 852,
+                    "y": 130,
+                    "uniqueID": 245614,
+                    "ioValues": [],
+                    "selectedColorIndex": 0
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 983,
+                    "y": 102,
+                    "uniqueID": 830434,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "name",
+                        "numberNeeded": 0,
+                        "costUSD": 0,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -17,7 +101,21 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 880878,
+                    "ap2ID": 971866
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 632031,
+                    "ap2ID": 808760
+                },
+                null
+            ],
             "fileTypeVersion": 1
         }
     ],
