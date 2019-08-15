@@ -38,8 +38,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 477,
-                    "y": 86,
+                    "x": 480,
+                    "y": 89,
                     "uniqueID": 971866,
                     "ioValues": [
                         {
@@ -51,8 +51,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 476,
-                    "y": 201,
+                    "x": 471,
+                    "y": 198,
                     "uniqueID": 808760,
                     "ioValues": [
                         {
@@ -64,7 +64,7 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 669,
+                    "x": 664,
                     "y": 117,
                     "uniqueID": 935381,
                     "ioValues": []
@@ -72,24 +72,24 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 852,
-                    "y": 130,
+                    "x": 809,
+                    "y": 143,
                     "uniqueID": 245614,
                     "ioValues": [],
-                    "selectedColorIndex": 0
+                    "selectedColorIndex": "5"
                 },
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 983,
-                    "y": 102,
+                    "x": 996,
+                    "y": 104,
                     "uniqueID": 830434,
                     "ioValues": [],
                     "BOMitem": {
                         "BOMitemName": "name",
                         "numberNeeded": 0,
                         "costUSD": 0,
-                        "source": "www.example.com",
+                        "source": "https://www.mcmaster.com/94669a090",
                         "totalNeeded": 0
                     }
                 },
@@ -114,7 +114,35 @@
                     "ap1ID": 632031,
                     "ap2ID": 808760
                 },
-                null
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": 971866,
+                    "ap2ID": 935381
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 808760,
+                    "ap2ID": 935381
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 935381,
+                    "ap2ID": 245614
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 245614,
+                    "ap2ID": 830434
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 830434
+                }
             ],
             "fileTypeVersion": 1
         }
