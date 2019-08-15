@@ -86,9 +86,9 @@
                     "uniqueID": 830434,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": "name",
-                        "numberNeeded": 0,
-                        "costUSD": 0,
+                        "BOMitemName": "20mm M4 Spacer Aluminum",
+                        "numberNeeded": 1,
+                        "costUSD": 1.86,
                         "source": "https://www.mcmaster.com/94669a090",
                         "totalNeeded": 0
                     }

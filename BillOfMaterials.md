@@ -2,5 +2,5 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|name|0|$0.00|https://www.mcmaster.com/94669a090|
-|Total: |0|$0.00| |
+|20mm M4 Spacer Aluminum|1|$1.86|https://www.mcmaster.com/94669a090|
+|Total: |1|$1.86| |
