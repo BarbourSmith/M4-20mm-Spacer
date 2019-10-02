@@ -4,3 +4,5 @@
  |----|----------|-----|-----|
 |20mm M4 Spacer Aluminum|1|$1.86|https://www.mcmaster.com/94669a090|
 |Total: |1|$1.86| |
+
+ 3xCOG MSRP: $5.58

@@ -76,7 +76,7 @@
                     "y": 143,
                     "uniqueID": 245614,
                     "ioValues": [],
-                    "selectedColorIndex": "5"
+                    "selectedColorIndex": "10"
                 },
                 {
                     "atomType": "Add BOM Tag",
@@ -97,7 +97,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
